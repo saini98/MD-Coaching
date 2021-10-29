@@ -1,0 +1,16 @@
+
+iframe 
+{
+    width: 600px;
+    height: 400px;
+}
+
+@media screen and (max-width: 767px){
+    iframe 
+    {
+        width: 290px;
+        height: 400px;
+    }
+}
+
+

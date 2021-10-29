@@ -1,0 +1,32 @@
+footer
+{
+    color: white;
+    
+}
+.foot_logo{
+    height: 100px;
+    width: 150px;
+}
+
+
+ hr{
+    height: 5px;
+    margin-top: 30px;
+    
+}
+
+.imgg{
+    height: 60px;
+    width: 60px;
+    padding: 5px;
+}
+.row{
+    justify-content: space-between;
+}
+@media screen and (max-width: 767px)
+{
+    .index
+    {
+        z-index: -1;
+    }
+}

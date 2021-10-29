@@ -1,0 +1,73 @@
+
+.logo-bar
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+   
+
+}
+.icon{
+   
+    margin-top: 20px;
+    margin-left: 100px;
+    border-radius: 2px;
+    font-size: 25px;
+    box-shadow: 1px 1px 10px 3px #eee;
+   
+}
+
+@keyframes zoom
+{
+    from
+    {
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.5);
+    }
+}
+.icon:hover{
+    
+    animation-name: zoom;
+    animation-duration: 0.5s;
+    cursor: pointer;
+}
+  /*This Media Query use for Mobile View*/
+  @media screen and (max-width: 767px){
+    .logo-bar
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .icon{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+.navtop
+{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+li:hover{
+    cursor: pointer;
+}
+
+.bounceIn
+{
+    animation: blink 1s linear infinite;
+}
+@keyframes blink{
+    0%{opacity: 0;}
+    50%{opacity: .5;}
+    100%{opacity: 1;}
+    }
+.ml
+{
+    margin-left: 100px;
+}

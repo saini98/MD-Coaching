@@ -1,0 +1,41 @@
+.classes
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.classTenth
+{
+    width: 500px;
+    height: 300px;
+    border: 5px solid black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.classTenth  > a{
+    position: relative;
+    top: 30%;
+    font-size: 40px;
+    font-weight: bolder;
+    
+}
+.classTwelfth > a
+{
+    position: relative;
+    top: 30%;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.classTwelfth
+{
+    width: 500px;
+    height: 300px;
+    border: 5px solid black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
